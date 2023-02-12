@@ -1,0 +1,50 @@
+article,aside,footer,header,main,nav,section { 
+background:yellow 
+display: block; 
+ width: 50%; 
+ border-color: yellow; 
+ border-style: solid; 
+ border-radius: 5px; 
+ margin: 0; 
+ padding: 0; 
+} 
+h1, h2, h3 { 
+ text-align: center; 
+} 
+body { 
+ margin: 0; 
+ padding: 0; 
+ font-family: Helvetica, Arial, sans-serif; 
+ background: white; 
+ font-size: 1em; 
+ line-height: 1.5em; 
+} 
+header 
+{ 
+ background-color: red; 
+} 
+nav 
+{ 
+ background-color: cyan; 
+} 
+main 
+{ 
+ background-color: yellow; 
+ overflow: auto; 
+}
+section 
+{ 
+ background-color: orange; 
+ float: right; 
+ width: 58%; 
+} 
+aside 
+{ 
+ background-color: magenta; 
+ float: left; 
+ width: 40%; 
+} 
+footer 
+{ 
+ background-color: green; 
+}
